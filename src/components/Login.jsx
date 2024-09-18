@@ -4,14 +4,6 @@ export default function Login() {
   const email = useRef();
   const password = useRef();
 
-  // function handleInputChange(identifier, value) {
-  //   setValues((prevValues) => ({
-  //     ...prevValues,
-  //     [identifier]: value
-  //   }));
-  // }
-
-
   function handleSubmit(event) {
     event.preventDefault();
     const enteredEmail = email.current.value;
